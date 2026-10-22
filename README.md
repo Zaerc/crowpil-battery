@@ -36,8 +36,12 @@ To build for a kernel you aren't booted into:
 
     sudo dkms install -m crowpil_battery -v 1.0 -k <kernelversion>
 
+## Related
+
+I2C protocol constants and voltage curve derived from [crowPi-L_BatteryStatus](https://github.com/ppyne/crowPi-L_BatteryStatus) by Alexandre Vialle.
+
 ## License
 
 GPL-2.0-or-later. See [LICENSE](LICENSE). Based in part on
-`fake_battery` by Rob Hoelz.
+`linux-fake_battery-module` (https://github.com/hoelzro/linux-fake-battery-module) by Rob Hoelz.
 
