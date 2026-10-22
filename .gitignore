@@ -11,6 +11,7 @@ debian/crowpil-battery-dkms/
 debian/.debhelper/
 debian/debhelper-build-stamp
 debian/*.debhelper
+debian/*.debhelper.log
 debian/files
 debian/*.substvars
 *.deb

@@ -320,7 +320,7 @@ static void __exit crowpil_battery_exit(void)
 module_init(crowpil_battery_init);
 module_exit(crowpil_battery_exit);
 MODULE_LICENSE("GPL v2");
-MODULE_AUTHOR("CrowPi");
+MODULE_AUTHOR("Zaerc Daphurst <zaerc@xs4all.nl>");
 MODULE_DESCRIPTION("CrowPi-L battery power_supply via I2C");
 
 
