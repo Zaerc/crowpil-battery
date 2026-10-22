@@ -1,0 +1,15 @@
+Source: crowpil-battery-dkms
+Section: kernel
+Priority: optional
+Maintainer: Zaerc Daphurst <zaerc@xs4all.nl>
+Build-Depends: debhelper (>= 10), dkms, dh-dkms
+Standards-Version: 4.6.2
+
+Package: crowpil-battery-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Recommends: linux-headers
+Description: DKMS package for the CrowPi-L battery power_supply module
+ Registers a CrowPi-L battery as a Linux power_supply device via I2C.
+ Rebuilds automatically whenever a new kernel is installed.
+
