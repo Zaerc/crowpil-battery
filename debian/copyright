@@ -8,7 +8,7 @@ License: GPL-2.0-or-later
 
 Files: src/crowpil_battery.c
 Copyright: 2026 Zaerc Daphurst <zaerc@xs4all.nl>
-           Rob Hoelz (fake_battery)
+           2015 Rob Hoelz <rob@hoelz.ro> (linux-fake-battery-module)
 License: GPL-2.0-or-later
 
 License: GPL-2.0-or-later
@@ -21,4 +21,7 @@ License: GPL-2.0-or-later
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
-
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in
+ "/usr/share/common-licenses/GPL-2".
