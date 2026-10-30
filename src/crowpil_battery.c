@@ -15,8 +15,8 @@
 #include <linux/workqueue.h>
 
 /* ---- CrowPi-L I2C constants ---- */
-//#define CROWPI_I2C_BUS      1
-#define CROWPI_I2C_BUS      8
+#define CROWPI_I2C_BUS      1     /* RaspberryPi */
+//#define CROWPI_I2C_BUS      8    /* radxa rock-5A (without the udev rule) */
 #define CROWPI_BAT_ADDR     0x03
 #define CROWPI_REG          0x35   /* block read 6 bytes */
 
