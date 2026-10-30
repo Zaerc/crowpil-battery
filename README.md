@@ -6,6 +6,15 @@ device (`BAT0` / `AC0`), polled over I2C. Packaged with DKMS so it rebuilds
 automatically whenever a new kernel is installed.
 
 Tested against Rockchip vendor kernels (`linux-headers-*rockchip*`).
+Compiles against Debian kernels.
+RaspberryPi kernels still untested.
+
+Radxa Rock-5A users can either adjust CROWPI_I2C_BUS or simply use an udev rule to create a link:
+
+    $ cat /etc/udev/rules.d/60-i2c-raspi.rules 
+    # Create i2c-1 symlink to i2c-8, pretending we're a RaspberryPi.
+    
+    ACTION=="add|change", SUBSYSTEM=="i2c-dev", KERNEL=="i2c-8", SYMLINK+="i2c-1"
 
 ## Requirements
 
